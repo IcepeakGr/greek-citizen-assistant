@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Project specific
+data/chroma_db/
+ollama_models/
+.env
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
