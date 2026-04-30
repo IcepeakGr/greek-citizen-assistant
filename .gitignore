@@ -1,22 +1,29 @@
-# Python
-__pycache__/
-*.py[cod]
+# Python virtual environment 
 venv/
 env/
-.pytest_cache/
-.coverage
+ENV/
 
-# IDE
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.env.local
+
+# IDE files 
 .vscode/
 .idea/
+*.swp
 .DS_Store
 
 # Project specific
-data/chroma_db/
-ollama_models/
-.env
-*.log
+data/chroma_db/     # Vector database (can be regenerated)
+*.log               # Log files
+.pytest_cache/      # Test cache
+.coverage           # Coverage report
 
-# OS files
-.DS_Store
-Thumbs.db
+# Ollama models
+ollama_models/
+~/.ollama/
